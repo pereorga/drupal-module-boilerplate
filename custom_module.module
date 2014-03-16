@@ -21,3 +21,17 @@ function my_module_menu() {
 
   return $items;
 }
+
+/**
+ * Implements hook_help().
+ */
+function custom_module_help($path, $arg) {
+
+  switch ($path) {
+    case 'admin/help#mymodule':
+
+      // Return a line-break version of the README.
+      $readme = file_get_contents(drupal_get_path('module', 'custom_module') . '/README.txt');
+      return nl2br($readme);
+  }
+}
