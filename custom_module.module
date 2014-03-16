@@ -28,7 +28,7 @@ function my_module_menu() {
 function custom_module_help($path, $arg) {
 
   switch ($path) {
-    case 'admin/help#mymodule':
+    case 'admin/help#custom_module':
 
       // Return a line-break version of the README.
       $readme = file_get_contents(drupal_get_path('module', 'custom_module') . '/README.txt');
