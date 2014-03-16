@@ -1,0 +1,3 @@
+name = Custom Module
+description = Description of the module.
+core = 7.x

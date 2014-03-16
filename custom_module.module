@@ -1,0 +1,23 @@
+<?php
+
+/**
+ * @file custom_module.module
+ * Short file description here.
+ *
+ * Long description here.
+ */
+
+/**
+ * Implements hook_menu().
+ */
+function my_module_menu() {
+
+  $items['example'] = array(
+    'title' => 'Example Page',
+    'page callback' => 'example_page',
+    'access arguments' => array('access content'),
+    'type' => MENU_NORMAL_ITEM,
+  );
+
+  return $items;
+}
