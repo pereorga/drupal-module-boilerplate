@@ -10,7 +10,7 @@
 /**
  * Implements hook_menu().
  */
-function my_module_menu() {
+function custom_module_menu() {
 
   $items['example'] = array(
     'title' => 'Example Page',
