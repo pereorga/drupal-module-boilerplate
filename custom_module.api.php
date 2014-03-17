@@ -1,6 +1,6 @@
 <?php
 
 /**
- * @file custom_module.api.php
+ * @file
  * Hooks and API functions provided by Custom Module.
  */
