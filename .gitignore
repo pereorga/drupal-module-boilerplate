@@ -1,3 +1,8 @@
+# You normally want to have a .gitignore file when the module is not specific
+# to a site (i.e. you are going to share it in multiple projects) so it has a
+# separate git repository (e.g. drupal.org if it's a contrib module).
+# See http://git-scm.com/docs/gitignore
+
 .DS_Store
 ._*
 *~
