@@ -39,6 +39,9 @@ function custom_module_help($path, $arg) {
 /**
  * Page example callback, referenced in hook_menu().
  *
+ * Description of what the page displays.
+ * Second line of the description.
+ *
  * @return string
  *   The content of the page.
  */
