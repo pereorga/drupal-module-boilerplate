@@ -49,3 +49,15 @@ function custom_module_page() {
 
   return 'example';
 }
+
+/**
+ * Implements hook_page_build().
+ *
+ * Add JavaScript and CSS code to every page.
+ */
+function custom_module_page_build() {
+
+  drupal_add_js(drupal_get_path('module', 'custom_module') . '/js/custom_module.js');
+  drupal_add_css(drupal_get_path('module', 'custom_module') . '/css/custom_module.css');
+
+}
